@@ -1,0 +1,76 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Header .Container .Cover .Footer{
+    width: 100vw;
+}
+.Header{
+    background-color: greenyellow;
+    display: flex;
+    position: relative;
+    min-height: fit-content;
+    height:4vh;
+    overflow: hidden;
+    font-size: 100%;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    /* flex-direction: column;*/
+} 
+.element{
+    height: inherit;
+    padding: 4px;
+    justify-content:center ;
+    align-content: center;
+    text-align: center;
+
+}
+.end{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-self: flex-end;
+    padding-right: 10px;
+}
+.Cover{
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: palevioletred;
+    height: 29vh;
+}
+.Container{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 62vh;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    /* grid-template-columns:32vw;
+    grid-template-rows: 50% 50%; */
+    /* justify-items: center; */
+}
+.Footer{
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+    align-content: center;
+    height:2vh;
+}
+.Footer-1{
+   display: flex;
+   font-size: 100%;
+   /* min-height: 2vh; */
+   overflow: hidden;
+
+   
+}
+.box{
+    background-color: beige;
+    margin:15px 30px;
+}
+.text-grid{
+   text-align: center;
+   vertical-align: middle; 
+}
